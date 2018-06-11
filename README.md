@@ -1,0 +1,2 @@
+# random_number_3
+python随即生成任意一个三位的随机数，python生成随机数
