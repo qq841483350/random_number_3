@@ -1,0 +1,13 @@
+#-*-coding:utf8-*-
+#函数功能：python随即生成任意一个三位的随机数
+__author__="liyatao"
+import random
+def randomNumber():  #定义一个涵数
+    b=random.sample(['0','1','2','3','4','5','6','7','8','9'],3)  #在一个列表样本里随即选出三个元即：在 0，1，2，3，4，5，6，7，8，9里随即挑出三个数，此时b的结果是一个三个元素的列表
+    str='' #定义str是一个空的字符串
+    result=str.join(b)   #这个涵数的意思是用一个空的字符串 将列表b中的元素连接起来，如果str是'-’那就是用'-’将b中的元素连接起来
+    #print result
+    return result
+
+if __name__=='__main__':
+    randomNumber()
